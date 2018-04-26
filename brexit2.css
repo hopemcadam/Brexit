@@ -1,0 +1,79 @@
+html {
+    margin:0;
+    padding:0;
+    font-family: helvetica;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262b34;
+}
+
+li {
+    float: right;
+    display: inline;
+    padding: 0px 25px 0px 20px;
+}
+
+li a {
+    display: block;
+    min-height: 40px;
+    color: white;
+    text-align: center;
+    padding: 27px 14px 0px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFCC00;
+}
+
+#logo {
+  float: left;
+  text-align: center;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+
+.small {
+  font-size: 69%;
+}
+
+div {
+  color: #262b34;
+  padding: 10px;
+  height: 500px;
+  line-height: 25px;
+  font-size: 14px;
+  text-align: center;
+  background-size: cover;
+  margin: 0 0 0 0;
+}
+
+/*.banner {
+  background: url(https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2016/03/2016_09_boris_for_obs.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 80% -60%;
+  max-height:200px;
+}*/
+
+.main {}
+
+.footer {
+  height: 80px;
+  background-color: #262b34;
+  color: white;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position; bottom;
+}
