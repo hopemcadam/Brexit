@@ -55,20 +55,13 @@ div {
   margin: 0 0 0 0;
 }
 
-/*.banner {
-  background: url(https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2016/03/2016_09_boris_for_obs.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: 80% -60%;
-  max-height:200px;
-}*/
-
 .main {}
 
 .footer {
-  height: 80px;
+  margin-top: 10px;
+  font-size: 75%;
+  line-height: 20px;
+  height: 20px;
   background-color: #262b34;
   color: white;
   position: relative;
