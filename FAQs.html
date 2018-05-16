@@ -4,16 +4,6 @@
     <title>What do EU mean?</title>
     <link rel="stylesheet" type="text/css" href="brexit2.css">
     <link rel="stylesheet" href="jquery-ui-for-accordian-menu.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-      $( function() {
-        $( "#accordion" ).accordion({
-            active:false,
-            collapsible:true
-          });
-      } );
-    </script>
   </head>
   <header>
     <ul>
@@ -43,6 +33,16 @@
       <br>
       Copyright 2018
     </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $( "#accordion" ).accordion({
+            active:false,
+            collapsible:true
+        });
+      });
+    </script>
 
   </body>
 </html>
