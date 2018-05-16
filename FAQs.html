@@ -3,6 +3,17 @@
   <head>
     <title>What do EU mean?</title>
     <link rel="stylesheet" type="text/css" href="brexit2.css">
+    <link rel="stylesheet" href="jquery-ui-for-accordian-menu.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( function() {
+        $( "#accordion" ).accordion({
+            active:false,
+            collapsible:true
+          });
+      } );
+    </script>
   </head>
   <header>
     <ul>
@@ -15,14 +26,16 @@
   </header>
   <body>
     <h1>FAQs</h1>
-    <h2>This is a test</h2>
-    <div class='main'> Y'ALL GOT ANY QUESTIONS?</div>
-      <dl id="FAQ-list">
-        <dt>When will we leave?</dt>
-        <dd>NEVER!!!!</dd>
-        <dt>Why are we leaving?</dt>
-        <dd>Because people are scared of people different from them</dd>
-      </dl>
+    <h2>Y'ALL GOT ANY QUESTIONS</h2>
+    <div class='main'>
+      <div id="accordion">
+        <h3>When will we leave?</h3>
+        <div><p>NEVER!!!!</p></div>
+        <h3>Why are we leaving?</h3>
+        <div><p>Because people are scared of people different from them</p></div>
+      </div>
+    </div>
+
     <div class="footer">
       CONTACT US
       <br>

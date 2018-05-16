@@ -47,7 +47,6 @@ li a:hover {
 div {
   color: #262b34;
   padding: 10px;
-  height: 500px;
   line-height: 25px;
   font-size: 14px;
   text-align: center;
@@ -61,7 +60,6 @@ div {
   margin-top: 10px;
   font-size: 75%;
   line-height: 20px;
-  height: 20px;
   background-color: #262b34;
   color: white;
   position: relative;
@@ -69,4 +67,15 @@ div {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position; bottom;
+}
+#accordion h3 {
+  color: #0838F7;
+  font-weight: bold;
+
+}
+
+#accordion h3.ui-state-active {
+  color: #f2f20b;
+  font-weight: bold;
+
 }
