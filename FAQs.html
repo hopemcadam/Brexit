@@ -2,14 +2,10 @@
 <html>
   <head>
     <title>What do EU mean?</title>
-<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="brexit.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-=======
-    <link rel="stylesheet" type="text/css" href="brexit2.css">
-    <link rel="stylesheet" href="jquery-ui-for-accordian-menu.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
@@ -20,7 +16,6 @@
           });
       } );
     </script>
->>>>>>> Abi changes FAQ page
   </head>
   <body>
     <header>
@@ -65,12 +60,16 @@
       </div>
     </div>
 
-    <dl id="FAQ-list">
-      <dt>When will we leave?</dt>
-      <dd>NEVER!!!!</dd>
-      <dt>Why are we leaving?</dt>
-      <dd>Because people are scared of people different from them</dd>
-    </dl>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( document ).ready(function() {
+        $( "#accordion" ).accordion({
+            active:false,
+            collapsible:true
+        });
+      });
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
