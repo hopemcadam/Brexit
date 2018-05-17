@@ -10,6 +10,16 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+div {
+  color: #262b34;
+  padding: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  text-align: center;
+  background-size: cover;
+  margin: 0 0 0 0;
+}
+
 .timeline-date {
   text-align: center;
   font-weight: bold;
