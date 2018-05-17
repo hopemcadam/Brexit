@@ -1,51 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>What do EU mean?</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>What do EU mean?</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="brexit.css">
+    <!-- I think we have this at the bottom? <script src="js/bootstrap.im.js"></script>-->
   </head>
 
   <header>
-    <!-- Static navbar-->
-    <nav class="navbar navbar-dark bg-dark" style="background-color: #262b34;">
-      <a class="navbar-brand" href="index.html">
-        <img src="https://i.imgur.com/Bftvuv9.png" width="208" height="54" alt="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="timeline.html">Timeline</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="toptrumps.html">Top Trumps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="FAQs.html">FAQs</a>
-          </li>
-        </ul>
+      <!-- Static navbar-->
+      <nav class="navbar navbar-dark bg-dark" style="background-color: #262b34;">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://i.imgur.com/Bftvuv9.png" width="208" height="54" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="timeline.html">Timeline<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="toptrumps.html">Top Trumps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FAQs.html">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+  <body>
+    <div class="container">
+      <h1>TIMELINE</h1>
+      <!-- first row -->
+      <div class="main row">
+        <div class="col-md-2 timeline-date">
+          January 2013
+        </div>
+        <div class= "col-md-10 timeline-content">
+          PM David Cameron favours and in/out referendum on the EU and this is included in the Conservative manifesto.
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <div id="timeline-hover">
+            Since 1973 there have been eleven referendums held in the UK, the majority of them have been related to the issue of devolution.
+          </div>
+        </div>
       </div>
-    </nav>
-  </header>
+      <!-- end first row -->
 
-    <body>
-      <div class='main'> Does Brexit get you in a spin? Here we will have some mighty fab content! </div>
+      <!-- second row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+          May 2014
+        </div>
+        <div class="col-md-10 timeline-content">
+          UKIP led by Nigel Farage wins 26% of the vote in European elections and becomes the UK's biggest representation in the European Parliament. The party’s key policy is to leave the EU.
+          <button type="button" class="btn btn-default" aria-label="Left Align">
+            <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+          </button>
+          <div id="timeline-hover">
+            UKIP stands for UK Independence Party.
+          </div>
+        </div>
+      </div>
+      <!-- end second row -->
 
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    </body>
+      <!-- third row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+          May 2015
+        </div>
+        <div class= "col-md-10 timeline-content">
+          Conservative party win the general election.
+        </div>
+      </div>
+      <!-- end third row -->
+
+      <!-- forth row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+          June 2016
+        </div>
+        <div class= "col-md-10 timeline-content">
+          REFERENDUM RESULT: Leave campaigners win with 51.9% against and 48.1% for Remain and David Cameron resigns immediately.
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <div id="timeline-hover">
+            The referendum turnout was 71.8%, with more than 30 million people voting. Brexit Secretary David Davis was confident of the result and made £1,000 betting Britain would vote Leave!
+          </div>
+        </div>
+      </div>
+      <!-- end forth row -->
+
+      <!-- fifth row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+          March 2017
+        </div>
+        <div class= "col-md-10 timeline-content">
+          New PM Theresa May triggers Article 50 starting a two year count down to Brexit.
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <div id="timeline-hover">
+            Article 50 of the Treaty of Lisbon gives any EU member state the right to quit the EU. It gives the leaving country two years to negotiate an exit deal and once it's set in motion it can't be stopped except by unanimous consent of all member states.
+          </div>
+        </div>
+      </div>
+      <!-- end fith row -->
+
+      <!-- sixth row -->
+      <div class="row">
+      <div class="col-md-2 timeline-date">
+        June 2017
+      </div>
+      <div class= "col-md-10 timeline-content">
+      May calls an election but surprisingly loses seats. In the same month she starts formal negotiations with the EU.
+        </div>
+      </div>
+      <!-- end sixth row -->
+
+      <!-- seventh row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+        July 2017
+        </div>
+        <div class= "col-md-10 timeline-content">
+        UK introduces European Union (withdrawal) Bill to revoke the 1972 European Communities Act), also known as the ‘Great Repeal Bill’. This copies EU laws into UK law.
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <div id="timeline-hover">
+          This Bill has now passed through the House of Commons and Lords and is awaiting the final stage before it becomes law which is to receive Royal Assent.
+          </div>
+        </div>
+      </div>
+
+      <!-- eighth row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+        December 2017
+        </div>
+        <div class= "col-md-10 timeline-content">
+        MPs force the Government to have a vote in the Commons on the final Brexit deal.
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <div id="timeline-hover">
+          May promised there will be a Commons and Lords vote to approve whatever deal the UK and the rest of the EU agree. This vote was proposed to be a "take it or leave it" option after the deal was done. In theory, MPs could vote against and block Brexit but the EU side would need to agree too. The referendum result is not legally binding and the withdrawal agreement has to be ratified by Parliament.
+          </div>
+        </div>
+      </div>
+      <!-- end eighth row -->
+
+      <!-- ninth row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+        March 2018
+        </div>
+          <div class= "col-md-10 timeline-content">
+            The UK and EU agreement starts to be formalised; agreements include dates for a transitional period and the status of UK citizens. This avoids a hard Brexit or a cliff edge.
+            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            <div id="timeline-hover">
+            This is the prospect of the UK crashing out of the EU with no deal at all. That would mean having no agreement on the terms of Britain's withdrawal or future trade relations, and could lead to serious disruption to businesses and individuals.
+            </div>
+          </div>
+        </div>
+      <!-- end ninth row -->
+
+      <!-- tenth row-->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+        June-Oct-Dec 2018
+        </div>
+          <div class= "col-md-10 timeline-content">
+          Euopean Counil Summits.
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <div id="timeline-hover">
+            The European Council defines the EU's overall political direction. It is not one of the EU's legislating institutions, so does not negotiate or adopt EU laws. Instead it sets the EU's policy agenda and actions to take.
+          </div>
+        </div>
+      </div>
+      <!-- end tenth row -->
+
+      <!-- eleventh row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+        January 2019
+        </div>
+          <div class= "col-md-10 timeline-content">
+          EU and British parliaments must ratify the withdrawal treaty before Brexit. To avoid last-minute jitters, getting that done at least two months ahead of time would help.
+          <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+          <div id="timeline-hover">
+          Deal needs to be agreed by at least 20 EU countries with 65% of the population.
+          </div>
+        </div>
+      </div>
+      <!-- end eleventh row -->
+
+      <!-- twelth row-->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+        March 2019
+        </div>
+          <div class= "col-md-10 timeline-content">
+            At 23:00 on 29 March 2019 the UK will leave the EU and the transition period begins, it will last to 31 December 2020.
+            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            <div id="timeline-hover">
+            It also allows time for the details of the new relationship to be fully hammered out. Free movement will continue during the transition period (as the EU wanted) and the UK will be able to strike its own trade deals but they won't come into force until 1 January 2021.
+            </div>
+          </div>
+        </div>
+      <!-- end twelth row -->
+
+      <!-- thirtheen row -->
+      <div class="row">
+        <div class="col-md-2 timeline-date">
+        May-June 2019
+        </div>
+        <div class= "col-md-10 timeline-content">
+        European Parliament elections.
+        </div>
+      </div>
+    <!-- end thirteenth row-->
+
+    <!-- fourtheenth row-->
+    <div class="row">
+      <div class="col-md-2 timeline-date">
+      December 2020
+      </div>
+      <div class= "col-md-10 timeline-content">
+      End of the Brexit transition period. The negation period can be extended if all 27 EU countries agree.
+      </div>
+    </div>
+</div>
+<!-- end fourtheenth row-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
 </html>
