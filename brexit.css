@@ -37,3 +37,13 @@ html {
 .glyphicon-info-sign {
   color: blue;
 }
+
+#accordion h3 {
+  color: #0838F7;
+  font-weight: bold;
+}
+
+#accordion h3.ui-state-active {
+  color: #f2f20b;
+  font-weight: bold;
+}
