@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 html {
     margin:0;
     padding:0;
@@ -5,33 +9,48 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-
-.small {
-  font-size: 69%;
-}
-
-.nav-item {
-  text-align: left;
-}
-
-div {
-  color: #262b34;
-  padding: 10px;
-  line-height: 25px;
-  font-size: 14px;
+h1 {
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
-  background-size: cover;
-  margin: 0 0 0 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.timeline-date {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #262b34;
+}
+
+.timeline-content {
+  text-align: left;
+  font-size: 16px;
+  color: #262b34;
+}
+
+#timeline-hover {
+  display: none;
+  color: red;
+}
+.timeline-content:hover #timeline-hover {
+  display: block;
+}
+
+.timeline-content:hover .fa-info {
+  color: red;
+}
+
+.glyphicon-info-sign {
+  color: blue;
 }
 
 #accordion h3 {
   color: #0838F7;
   font-weight: bold;
-
 }
 
 #accordion h3.ui-state-active {
   color: #f2f20b;
   font-weight: bold;
-
-}  */
+}
