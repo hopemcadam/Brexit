@@ -1,11 +1,39 @@
-html {
-  margin:0;
-  padding:0;
-  font-family: helvetica;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+body {
+    margin: 0;
 }
 
-li a:hover {
-    color: #FFCC00;
+html {
+    margin:0;
+    padding:0;
+    font-family: helvetica;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.timeline-date {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #262b34;
+}
+
+.timeline-content {
+  text-align: left;
+  font-size: 16px;
+  color: #262b34;
+}
+#timeline-hover {
+  display: none;
+  color: red;
+}
+.timeline-content:hover #timeline-hover {
+  display: block;
+}
+
+.timeline-content:hover .glyphicon-info-sign {
+  color: red;
+}
+
+.glyphicon-info-sign {
+  color: blue;
 }
