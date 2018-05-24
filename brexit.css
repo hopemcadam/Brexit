@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 html {
     margin:0;
     padding:0;
@@ -6,32 +10,127 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-.small {
-  font-size: 69%;
-}
-
-.nav-item {
-  text-align: left;
-}
-
-div {
-  color: #262b34;
-  padding: 10px;
-  line-height: 25px;
-  font-size: 14px;
+h1 {
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
-  background-size: cover;
-  margin: 0 0 0 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.timeline-date {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #262b34;
+}
+
+.timeline-content {
+  text-align: left;
+  font-size: 16px;
+  color: #262b34;
+}
+
+#timeline-hover {
+  display: none;
+  color: red;
+}
+.timeline-content:hover #timeline-hover {
+  display: block;
+}
+
+.timeline-content:hover .fa-info {
+  color: red;
+}
+
+.glyphicon-info-sign {
+  color: blue;
 }
 
 #accordion h3 {
   color: #0838F7;
   font-weight: bold;
-
 }
 
 #accordion h3.ui-state-active {
   color: #f2f20b;
   font-weight: bold;
+}
 
-}  */
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("skynews-brexit-eu_4232786.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 32%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.hero-image {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+.row { margin: 0 auto; }
+
+.column {
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
