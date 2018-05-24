@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px !important;
+    font-size: 35px !important;
     font-weight: bold;
     text-align: center;
     margin-top: 15px !important;
@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ h3 {
 }
 
 .winner {
-    background-color: yellow;
+    background-color: #f8cb45;
     font-weight: bold;
 }
 
@@ -79,6 +79,12 @@ h3 {
     border: 0px;
 }
 
+.btn:hover {
+    background-color: #353a3f !important;
+    color: #f8cb45 !important;
+    border: 0;
+}
+
 #accordion h3 {
     color: #353a3f;
     font-weight: bold;
@@ -93,6 +99,7 @@ h3 {
 
 .no-focus * {
   outline: 0;
+  border: 0;
 }
 
 p {
