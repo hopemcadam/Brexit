@@ -4,6 +4,7 @@ body {
 }
 
 html {
+    height: 100%;
     margin:0;
     padding:0;
     font-family: helvetica;
@@ -101,7 +102,7 @@ p {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("skynews-brexit-eu_4232786.jpg");
+    background-image: url("./brexit.jpg");
 
     /* Set a specific height */
     height: 50%;
