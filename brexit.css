@@ -12,82 +12,82 @@ html {
 }
 
 h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 h2 {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+    font-size: 30px !important;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
 }
 
 h3 {
-  font-size: 16px;
-  font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .trumps-image {
-  align-content: center;
+    align-content: center;
 }
 
 .winner {
-  background-color: yellow;
-  font-weight: bold;
+    background-color: yellow;
+    font-weight: bold;
 }
 
 .timeline-date {
-  text-align: center;
-  font-weight: bold;
-  font-size: 16px;
-  color: #262b34;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #262b34;
 }
 
 .timeline-content {
-  text-align: left;
-  font-size: 16px;
-  color: #262b34;
+    text-align: left;
+    font-size: 16px;
+    color: #262b34;
 }
 
 #timeline-hover {
-  display: none;
-  color: red;
+    display: none;
+    color: red;
 }
 
 .timeline-content:hover #timeline-hover {
-  display: block;
+    display: block;
 }
 
 .timeline-content:hover .fa-info {
-  color: red;
+    color: red;
 }
 
 .glyphicon-info-sign {
-  color: blue;
+    color: blue;
 }
 
 .btn {
-  background-color: #f8cb45;
-  color: #353a3f;
-  font-weight: bold;
-  border: 0px;
+    background-color: #f8cb45;
+    color: #353a3f;
+    font-weight: bold;
+    border: 0px;
 }
 
 #accordion h3 {
-  color: #353a3f;
-  font-weight: bold;
-  margin-bottom: 10px;
+    color: #353a3f;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 #accordion h3.ui-state-active {
-  background-color: #353a3f;
-  color: #f8cb45;
-  font-weight: bold;
+    background-color: #353a3f;
+    color: #f8cb45;
+    font-weight: bold;
 }
 
 .no-focus * {
