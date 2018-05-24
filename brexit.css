@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
 }
@@ -63,12 +63,19 @@ h2 {
   color: blue;
 }
 
+.btn {
+  background-color: #f8cb45 !important;
+  color: #353a3f !important;
+  font-weight: bold !important;
+}
+
 #accordion h3 {
-  color: #0838F7;
+  color: #353a3f;
   font-weight: bold;
 }
 
 #accordion h3.ui-state-active {
-  color: #f2f20b;
+  background-color: #353a3f;
+  color: #f8cb45;
   font-weight: bold;
 }
