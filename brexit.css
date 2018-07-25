@@ -33,6 +33,20 @@ h3 {
     font-weight: bold;
 }
 
+button {
+    background-color: #f8cb45;
+    color: #353a3f !important;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #353a3f !important;
+    color: #f8cb45 !important;
+    border: 0;
+}
+
 .trumps-image {
     align-content: center;
 }
@@ -160,6 +174,7 @@ p {
 .row { margin: 0 auto; }
 
 .column {
+  text-align: center;
   border: 2px solid grey;
   border-radius: 10px;
   padding-top: 30px;
@@ -168,6 +183,6 @@ p {
   padding-left: 30px;
   margin-top: 0px;
   margin-bottom: 30px;
-  margin-right: 10px;
+  margin-right: 0px;
   margin-left: 10px;
 }
